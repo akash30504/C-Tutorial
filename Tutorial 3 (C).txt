@@ -1,0 +1,30 @@
+(1)
+    x++; 
+    x += 1; 
+    x = x + 1; 
+    x = x | ~(-1);
+
+(2) 
+ (a) z = x++ + y;
+ (b) product *= 2;
+ (c) product = product * 2;
+ (d) if (count > 10) {
+        printf("Count is greater than 10.\n");
+     }
+ (e) total -= --x;
+ (f) total += x--;
+ (g) q = q % divisor;
+ (h) printf("%.2f\n", 123.4567);
+ (i) printf("%.3f\n", 3.14159);
+
+Q3)
+ (a) scanf("%d", &x);
+ (b) scanf("%d", &y);
+ (c) int i = 1;
+ (d) int power = 1;
+ (e) power *= x;
+ (f) i++;
+ (g) while (i <= y) {
+       // Code inside the loop
+     }
+ (h) printf("%d\n", power);

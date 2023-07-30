@@ -1,0 +1,136 @@
+(1)
+A programming language is needed to communicate instructions to computers in a way that is easier for humans to understand and write. It provides efficiency, abstraction, modularity, productivity, portability, and flexibility, enabling programmers to develop software efficiently and effectively.
+
+(2)
+(a) Source Code vs. Machine Code
+
+Source Code:
+
+Written by programmers using a high-level programming language.
+Human-readable form with syntax and constructs.
+Portable across platforms.
+Can be modified, maintained, and shared.
+Requires a compiler or interpreter to convert into machine code.
+
+Machine Code:
+
+Lowest-level representation of a program.
+Written in binary form (0s and 1s) directly understood by the computer's processor.
+Not human-readable.
+Platform-specific and not easily portable.
+Executed directly by the computer without the need for compilation or interpretation.
+
+(b) High Level Language vs. Low Level Language
+
+High-Level Language:
+
+High-level languages are designed to be closer to human language, making them more readable and easier to understand and write.
+They provide abstractions and built-in functions for common programming tasks, allowing programmers to focus on problem-solving rather than low-level details.
+Examples of high-level languages include Python, Java, and C#.
+They are generally platform-independent and can be compiled or interpreted into machine code for execution on different platforms.
+High-level languages are more user-friendly, with less complexity and greater productivity for programmers.
+
+Low-Level Language:
+
+Low-level languages are closer to machine code and provide direct control over hardware resources.
+They are less readable and more complex compared to high-level languages, as they use mnemonic codes and memory addresses.
+Examples of low-level languages include assembly languages and machine code.
+Low-level languages are platform-specific and require specific knowledge of the underlying hardware architecture.
+They offer precise control over memory and hardware resources, making them suitable for tasks that require optimization, such as device drivers and embedded systems programming.
+
+(c) Compiler vs. Interpreter
+
+Compiler:
+
+Converts the entire source code into machine code before execution.
+Generates an executable file that can be executed directly by the computer.
+Checks for errors and provides diagnostics before the program is run.
+Typically results in faster execution since the code is already converted to machine code.
+Examples include GCC (GNU Compiler Collection) for C/C++ and javac for Java.
+
+Interpreter:
+
+Executes the source code line by line without prior conversion to machine code.
+Translates and executes each statement or instruction one at a time.
+Detects errors and provides diagnostics at runtime.
+Generally slower than compiled code as it needs to interpret code during execution.
+Examples include Python interpreter (python) and JavaScript interpreter (Node.js).
+
+(d) Structured Language vs. Object Oriented Language
+
+Structured Language:
+
+Structured languages follow a procedural programming paradigm.
+Emphasize modular programming with functions or procedures.
+Data and functions are separate entities.
+Flow control is achieved using loops, conditionals, and subroutines.
+Examples include C, Pascal, and Fortran.
+
+Object-Oriented Language:
+
+Object-oriented languages follow the object-oriented programming (OOP) paradigm.
+Emphasize data and behavior encapsulated in objects.
+Objects are instances of classes that encapsulate data and related functions.
+Inheritance allows the creation of hierarchies and code reuse.
+Polymorphism enables objects of different types to be treated interchangeably.
+Examples include Java, C++, and Python.
+
+(e) C vs. C++
+
+C:
+
+C is a procedural programming language.
+Focuses on efficiency, low-level control, and direct access to hardware.
+Provides basic data types and structured programming constructs.
+Does not have built-in support for object-oriented programming.
+Allows manual memory management.
+Commonly used in system programming, embedded systems, and performance-critical applications.
+
+C++:
+
+C++ is a multi-paradigm programming language.
+Extends the features of C by adding object-oriented programming capabilities.
+Provides classes, inheritance, polymorphism, and encapsulation.
+Supports generic programming through templates.
+Includes standard libraries for various tasks.
+Offers automatic memory management through features like constructors and destructors.
+Widely used in application development, game development, and large-scale software projects.
+
+(f) C++ v. Java
+
+C++:
+
+C++ is a multi-paradigm programming language.
+Supports both procedural and object-oriented programming.
+Provides direct memory manipulation and low-level control.
+Allows for manual memory management.
+Offers performance advantages with its ability to be compiled into efficient machine code.
+Widely used in system programming, game development, and performance-critical applications.
+
+Java:
+
+Java is an object-oriented programming language.
+Designed for platform independence through its "Write Once, Run Anywhere" principle.
+Executes code in a virtual machine (JVM) rather than directly on the hardware.
+Automatic memory management through garbage collection.
+Strong emphasis on safety and security features.
+Extensive standard library with built-in support for networking, multithreading, and GUI development.
+Popular for developing web applications, enterprise software, and Android apps.
+
+(g) Syntax error vs. Logical error
+
+Syntax Error:
+
+Syntax errors occur when the programming language rules are violated.
+They are detected by the compiler or interpreter during the compilation or interpretation process.
+Common syntax errors include missing semicolons, mismatched parentheses, or using undefined variables.
+Syntax errors prevent the code from being compiled or executed successfully.
+They are typically easier to identify and fix as they are specific and result in a clear error message.
+
+Logical Error:
+
+Logical errors occur when there is a flaw in the algorithm or logic of the program.
+They do not result in immediate error messages or program termination.
+Logical errors lead to incorrect program behavior or produce unexpected results.
+They are more difficult to identify and debug as they require understanding the program's intended logic.
+Testing, debugging techniques, and understanding the problem domain are often needed to fix logical errors.

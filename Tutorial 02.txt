@@ -1,0 +1,81 @@
+(1)
+To write comments in a C program, you can use either single-line comments (//).
+The purpose of comments in a program is to provide explanations, documentation, and notes for the programmer or other readers of the code. They help in improving code readability, understanding code logic, and making the code more maintainable and easier to debug.
+
+(2)
+The main() function is essential in a C program.
+
+(3)
+The purpose of 'scanf' in C is to read input from the user or input stream. It allows the program to receive input values and store them in variables for further processing.
+
+(4)
+Yes, standard C is a case-sensitive language. This means that uppercase and lowercase letters are treated as distinct and have different meanings in identifiers, keywords, and variable names.
+
+(5)
+Valid identifiers: (a) record1, (f) name, (i) name_and_address.
+
+Invalid identifiers:
+
+(e) $tax: Invalid because identifiers cannot start with a dollar sign.
+(h) name-and-address: Invalid because hyphens are not allowed in identifiers.
+(b) 1record: Invalid because identifiers cannot start with a digit.
+(c) file-3: Invalid because hyphens are not allowed in identifiers.
+(g) name and address: Invalid because identifiers cannot contain spaces.
+(j) 123-45-6789: Invalid because identifiers cannot start with a digit.
+Identifiers in C must follow certain rules, such as starting with a letter or an underscore and consisting of letters, digits, and underscores. They cannot contain spaces, hyphens, or special characters 
+
+(6)
+a) False. The function printf does not automatically begin printing at the beginning of a new line. It continues printing from the current cursor position unless specified otherwise.
+
+b) False. Comments in C, denoted by '/*' and '*/,' are ignored by the compiler and do not result in any output during program execution.
+
+c) True. The escape sequence \n in a printf format control string moves the cursor to the beginning of the next line on the screen.
+
+d) False. In C, variables can be declared and defined at any point before they are used. However, it is good practice to define variables before using them to avoid potential issues.
+
+e) True. In C, variables must be given a type when they are defined. The type specifies the kind of data that the variable can hold.
+
+f) True. C is a case-sensitive language, so variables with different capitalization are considered distinct. Therefore, number and NuMbEr would be treated as different variables.
+
+g) False. A program that prints three lines of output can be achieved with a single printf statement using escape sequences like '\n' to move to the next line. Multiple printf statements are not necessary.
+
+(7)
+
+*
+**
+***
+****
+*****
+
+(8)
+
+a) The error in statement (a) is that the format specifier in the scanf function is incorrect. It should be '%d' to indicate an integer input.
+b) The error in statement (b) is a missing comma after the format string in the printf function. 
+c) The error in statement (c) is that the scanf function name is written with an incorrect capitalization. C is case-sensitive, so the function name should be all lowercase.
+d) There is no error in statement (d).
+e) The error in statement (e) is that the function name is written as print instead of printf.
+f) The error in statement (f) is a missing ampersand (&) before the value variable in the printf function.
+
+(9)
+a) The statement printf("%d", x); will print the value of x, which is 2.
+b) The statement printf("%d", x + x); will print the result of x + x, which is 4.
+c) The statement printf("x="); will print "x=".
+d) The statement printf("x=%d", x); will print "x=2".
+e) The statement printf("%d = %d", x + y, y + x); will print "5 = 5". It calculates the sum of x and y in two different orders and prints the results.
+f) The statement z = x + y; does not involve any printing. It assigns the sum of x and y to the variable z.
+g) The statement scanf("%d%d", &x, &y); does not involve any printing. It reads input from the user and stores it in the variables x and y.
+h) The statement /* printf( "x + y = %d", x + y ); */ is a commented-out line and does not result in any printing.
+i) The statement printf("\n"); will print a newline character, resulting in a line break.
+
+(10)
+a) True. In C, operators are generally evaluated from left to right, following the left associativity rule. However, there are some operators with right associativity, such as the assignment operator (=) and the ternary operator (? :).
+b) True. All the variable names mentioned are valid. Variable names in C can start with an underscore or a letter and can contain letters, digits, and underscores.
+c) False. The statement printf("a = 5;"); is a function call to printf and not an assignment statement. It prints the text "a = 5;" to the console.
+d) True. In the absence of parentheses, a valid arithmetic expression without parentheses is evaluated from left to right, following the operator precedence rules. Operators with higher precedence are evaluated before operators with lower precedence.
+e) True. The variable names mentioned "3g", "87", "67h2", "h22", and "2h" are invalid. Variable names in C cannot start with a digit and should start with a letter or an underscore.
+
+
+
+
+
+

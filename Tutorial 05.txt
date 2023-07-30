@@ -1,0 +1,156 @@
+(1)
+#include<stdio.h>
+int main() 
+{
+    double num1, num2;
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &num1, &num2);
+
+    int choice;
+    printf("1. +\n");
+    printf("2. -\n");
+    printf("3. *\n");
+    printf("4. /\n");
+    printf("Please enter your choice: ");
+    scanf("%d", &choice);
+
+    double result;
+    switch (choice) {
+        case 1:
+            result = num1 + num2;
+            printf("Sum: %.2lf\n", result);
+            break;
+        case 2:
+            result = num1 - num2;
+            printf("Difference: %.2lf\n", result);
+            break;
+        case 3:
+            result = num1 * num2;
+            printf("Product: %.2lf\n", result);
+            break;
+        case 4:
+            if (num2 != 0) {
+                result = num1 / num2;
+                printf("Division: %.2lf\n", result);
+            } else {
+                printf("Error: Division by zero is not allowed.\n");
+            }
+            break;
+        default:
+            printf("Invalid choice.\n");
+            break;
+    }
+
+}
+
+(2)
+
+1)
+#include<stdio.h>
+int main() 
+{
+    int number, countOdd = 0, countEven = 0, count = 0;
+
+    printf("Enter 10 numbers:\n");
+
+    while (count < 10) {
+        scanf("%d", &number);
+
+        if (number % 2 == 0) {
+            countEven++;
+        } else {
+            countOdd++;
+        }
+
+        count++;
+    }
+
+    printf("Count of odd numbers: %d\n", countOdd);
+    printf("Count of even numbers: %d\n", countEven);
+}
+
+2)
+#include<stdio.h>
+int main() 
+{
+    int number, countOdd = 0, countEven = 0;
+
+    printf("Enter a series of numbers terminated by -99:\n");
+
+    while (1) {
+        scanf("%d", &number);
+
+        if (number == -99) {
+            break;
+        }
+
+        if (number % 2 == 0) {
+            countEven++;
+        } else {
+            countOdd++;
+        }
+    }
+
+    printf("Count of odd numbers: %d\n", countOdd);
+    printf("Count of even numbers: %d\n", countEven);
+}
+
+
+(3)
+#include<stdio.h>
+int main() 
+{
+    int number, countOdd = 0, countEven = 0, count = 0;
+
+    printf("Enter 10 numbers:\n");
+
+    do {
+        scanf("%d", &number);
+
+        if (number % 2 == 0) {
+            countEven++;
+        } else {
+            countOdd++;
+        }
+
+        count++;
+    } while (count < 10);
+
+    printf("Count of odd numbers: %d\n", countOdd);
+    printf("Count of even numbers: %d\n", countEven);
+
+}
+
+
+(4)
+
+1)
+#include<stdio.h>
+int main() 
+{
+    int number, sum = 0;
+    double average;
+
+    printf("Enter 10 numbers:\n");
+
+    for (int i = 0; i < 10; i++) {
+        scanf("%d", &number);
+        sum += number;
+    }
+
+    average = (double) sum / 10;
+
+    printf("Average value: %.2lf\n", average);
+}
+
+2)
+#include<stdio.h>
+int main() 
+{
+    for (int i = 1; i <= 5; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+}

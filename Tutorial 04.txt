@@ -1,0 +1,31 @@
+(1) 
+1)The condition in the if statement is using the assignment operator (=) instead of the equality operator (==) to compare numNeighbors with 4. The condition should be numNeighbors == 4 to check for equality.
+2)The statements within the if and else blocks should be enclosed in curly braces ({}) to define the scope of each block.
+3)The printf statement is missing a closing quotation mark (") after the newline character (\n). It should be printf("You are dead! \n");.
+
+(2) 
+The poorly indented program segment can lead to confusion about the actual execution flow. However, based on the structure and assuming correct indentation, the expected.
+Explanation:
+
+-The variable number is assigned the value 4.
+-The variable alpha is assigned the value -1.0.
+-The first if statement checks if number is greater than 0. Since it is, the inner if statement is entered.
+-The inner if statement checks if alpha is greater than 0. However, since alpha is -1.0, the condition is false, and the else block is executed.
+-The else block prints "No, I'm here!" to the console.
+-The next printf statement is not part of any conditional block, so it is executed regardless. It prints "No, actually, I'm here!" to the console
+
+(3)
+The provided if statement determines whether the boolean variable nobelPrizeCandidate should be set to true or false based on the values of doesSignificantWork and makesBreakthrough. 
+Explanation:
+-If doesSignificantWork is true, the inner if-else statement is executed.
+-If makesBreakthrough is true, nobelPrizeCandidate is set to true.
+-If makesBreakthrough is false, nobelPrizeCandidate is set to false.
+-If doesSignificantWork is false, the else statement is executed, and nobelPrizeCandidate is set to false.
+In short, if significant work is done and a breakthrough is made, the nobelPrizeCandidate is set to true. Otherwise, it is set to false. If no significant work is done, the nobelPrizeCandidate is always false.
+
+(4)
+-If character variable taxCode is 'T', increase price by adding the taxRate percentage of price to it.
+-If integer variable opCode has the value 1, read in double values for X and Y and calculate and print their sum.
+-If integer variable currentNumber is odd, change its value to 3 times currentNumber plus 1. Otherwise, change its value to half of currentNumber (rounded down when currentNumber is odd).
+-Assign true to the boolean variable leapYear if the integer variable year is a leap year.
+-Assign a value to double variable cost depending on the value of integer variable distance.
